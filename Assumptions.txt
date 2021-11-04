@@ -1,0 +1,12 @@
+Below are the assumptions made for this 2D-shape base system:
+
+1) A point being on the border or very close to the border of the rectangle will count as being inside.
+2) All 2D-shapes are closed and fall into the category of either a Polygon or an Ellipse.
+3) There are no intermediary classes or classifications between the Polygon and the end-shapes (e.g: rectangle).
+4) Since a single source code file was specified, there are no additional files to separate the classes
+   into header files and class files for the purpose of readability.
+5) The base system will be based on coordinates in order to accurately specify where an object is in relation
+   to another.
+6) No base function implementation to determine whether a point is inside or outside the rectangle needs to be
+   generalized to the polygon class.
+7) We are allowed to use the C++ standard libraries.
